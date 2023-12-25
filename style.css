@@ -7,12 +7,14 @@ body{
 
 .profile{
     width:50%;
-    background-color: darkgrey;
+    background-color: rgb(52, 127, 146);
     height: 900px;
     display: flex;
     flex-direction: column;
     
 }
+
+
 .c1{
     display: flex;
 }
@@ -40,9 +42,10 @@ main{
 
 }
 .profile2{
-    width: 50%;
+    width: 70%;
     padding: 50px;
     padding: 5px;
+    background-color: darkgrey;
 }
 .profile2 h2{
     border-bottom: black 1px solid ;
