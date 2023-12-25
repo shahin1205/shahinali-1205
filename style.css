@@ -2,11 +2,11 @@ body{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: 50%;
 }
 
 .profile{
-    width: 400px;
+    width:50%;
     background-color: darkgrey;
     height: 900px;
     display: flex;
@@ -26,7 +26,7 @@ main{
     display:flex ;
     overflow-x: scroll;
     scroll-snap-type: x proximity;
-    margin-left: 400px;
+    margin-left: 35%;
 }
 .container div{
     min-width: 10rem;;
@@ -40,7 +40,7 @@ main{
 
 }
 .profile2{
-    width: 500px;
+    width: 50%;
     padding: 50px;
     padding: 5px;
 }
