@@ -1,0 +1,63 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile{
+    width: 400px;
+    background-color: darkgrey;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.c1{
+    display: flex;
+}
+main{
+    display: flex;
+}
+.container{
+    width: 10rem; ;
+    height:10rem ;
+    background:white ;
+    display:flex ;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    margin-left: 400px;
+}
+.container div{
+    min-width: 10rem;;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    font-size:10rem ;
+}
+.container img{
+    width: 10rem;
+
+}
+.profile2{
+    width: 500px;
+    padding: 50px;
+    padding: 5px;
+}
+.profile2 h2{
+    border-bottom: black 1px solid ;
+    
+}
+.profile2 table td{
+    
+    text-align: center;
+    width: 500px;
+}
+table, td, th {
+    border: 1px solid;
+  }
+.profile2 table {
+
+    width: 100%;
+    border-collapse: collapse;
+  }
