@@ -7,7 +7,7 @@ body{
 }
 
 .profile{
-    width:50%;
+    width:35%;
     background-color: rgb(52, 127, 146);
     height: 900px;
     display: flex;
@@ -43,7 +43,7 @@ main{
 
 }
 .profile2{
-    width: 70%;
+    width: 100%;
     padding: 50px;
     padding: 5px;
     background-color: darkgrey;
